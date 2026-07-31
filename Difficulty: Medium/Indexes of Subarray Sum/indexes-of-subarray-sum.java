@@ -8,7 +8,7 @@ class Solution {
         for (int j = 0; j < arr.length; j++) {
             sum = sum + arr[j];
 
-            while (sum > target && i < j) {
+            while(sum > target && i < j) {
                 sum = sum - arr[i];
                 i++;
             }
